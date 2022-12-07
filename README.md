@@ -3,13 +3,13 @@
 Este projeto foi desenvolvido utilizando como base o repositório de Michael Káren, feito em Javascript.
 
 Foram utilizados os elementos:
-- HTML: Para a composição da tela inicial do jogo;
-- CSS: Estilização da tela, fonte e do botão de Play;
-- Javascript: Comportamento do jogo. Para isso foram definidas algumas classes que realizariam estes comportamentos:
-  - Board: Responsável pela lógica e comportamento das peças, como a inicialização, reset, desenho das peças, movimentação de queda, limpeza das linhas quando há pontuação, validações de colisão, rotação e pontuação;
-  - Constants: Configuração das regras de jogo, como definição das colunas e linhas do board, cores, formas matriciais das peças, teclas utilizadas, definição da pontuação e da velocidade da queda das peças por nível;
-  - Main: Definição da inicialização do jogo, utilização do canvas para gerar os elementos 2D, atualização da pontuação, inicialização, movimentação, animação, pausa  e game over das peças; 
-  - Piece: Lógica das peças, cosntrutores para sua geração e forma de movimentação na tela, além da função que gera formas aleatórias;
+- **HTML**: Para a composição da tela inicial do jogo;
+- **CSS**: Estilização da tela, fonte e do botão de Play;
+- **Javascript**: Comportamento do jogo. Para isso foram definidas algumas classes que realizariam estes comportamentos:
+  - **Board**: Responsável pela lógica e comportamento das peças, como a inicialização, reset, desenho das peças, movimentação de queda, limpeza das linhas quando há pontuação, validações de colisão, rotação e pontuação;
+  - **Constants**: Configuração das regras de jogo, como definição das colunas e linhas do board, cores, formas matriciais das peças, teclas utilizadas, definição da pontuação e da velocidade da queda das peças por nível;
+  - **Main**: Definição da inicialização do jogo, utilização do canvas para gerar os elementos 2D, atualização da pontuação, inicialização, movimentação, animação, pausa  e game over das peças; 
+  - **Piece**: Lógica das peças, cosntrutores para sua geração e forma de movimentação na tela, além da função que gera formas aleatórias;
 - A tela inicial de jogo terá essa aparência:
 
 ![Main](https://github.com/lucasbriz/projeto-tetris/blob/main/assets/main.JPG)
