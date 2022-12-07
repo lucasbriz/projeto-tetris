@@ -12,15 +12,15 @@ Foram utilizados os elementos:
   - Piece: Lógica das peças, cosntrutores para sua geração e forma de movimentação na tela, além da função que gera formas aleatórias;
 - A tela inicial de jogo terá essa aparência:
 
-iamgem
+![Main](https://github.com/lucasbriz/projeto-tetris/blob/main/assets/main.JPG)
 
 # Funcionamento
 
 - O jogo tem uma premissa simples; começamos com um quadro em branco e, ao dar o _Play_, serão geradas peças, chamadas de Tetrominos, de forma aleatória, baseadas em suas características, identificadas como I, J, L, O, S, T, e Z:
 
-imagem
+![Tetrominos](https://github.com/lucasbriz/projeto-tetris/blob/main/assets/tetrominos.JPG)
 
 - Cada peça irá começar a cair e o jogador pode movê-la para os lados utilizando as setas direita e esquerda do teclado e a seta para cima, para rotacionar a peça. Quando atingir outra peça na horizontal, ela permanecerá imóvel e outra peça será gerada. Então, o jogador deve encaixar as peças a fim de que ele complete uma linha inteira e, com isso, ganhar pontos.
 - O jogo será encerrado quando qualquer peça atingir o topo da tela.
 
-- exemplo
+![Game-Over](https://github.com/lucasbriz/projeto-tetris/blob/main/assets/game-over.JPG)
